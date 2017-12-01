@@ -44,10 +44,6 @@ Get-Module -ListAvailable
 
 
 Get-VICredentialStoreItem
-Connect-VIServer "slc-vcenter1.corp.srelay.com" -User "corp\mdopp" -Password "" -SaveCredentials
-Connect-VIServer "mesa-vcenter1.corp.srelay.com" -User "corp\mdopp" -Password "" -SaveCredentials
-Connect-VIServer "qa-vcenter2.corp.srelay.com" -User "corp\mdopp" -Password "" -SaveCredentials
-Connect-VIServer "edc-vcenter55.corp.srelay.com" -User "corp\mdopp" -Password "" -SaveCredentials
-Connect-VIServer "labvc1.corp.srelay.com" -User "corp\mdopp" -Password "" -SaveCredentials
+Connect-VIServer
 
 Cls
