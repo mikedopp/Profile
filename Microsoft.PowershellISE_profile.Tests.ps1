@@ -4,6 +4,6 @@ $sut = (Split-Path -Leaf $MyInvocation.MyCommand.Path).Replace(".Tests.", ".")
  
 Describe "Microsoft.PowershellISE_profile" {
     It "outputs 'C:\Windows\System32\'" {
-        Get-HelloWorld | Should Be 'C:\Windows\System32\'
+        Set-Location | Should Be 'C:\Windows\System32\'
     }
 }
