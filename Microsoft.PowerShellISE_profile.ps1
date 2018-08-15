@@ -1,5 +1,5 @@
 ﻿Set-Location C:\Windows\System32\
-$Shell.WindowTile="System32"
+#$Shell.WindowTile="System32"
 
 Set-executionpolicy Unrestricted
 Set-Item WSMan:\localhost\Client\TrustedHosts -Value '*'
