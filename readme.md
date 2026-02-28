@@ -1,46 +1,55 @@
-# 👋 Hi, I'm Mike Dopp
+# Howdy 👋 I'm Mike Dopp
 
-I'm an platform engineer with a focus on automation based in Salt Lake City. I build systems that let developers focus on code—by automating the boring parts.
+**`Automation specialist · PowerShell/BASH/Python · On‑prem, Azure, AWS · Building fresh Pods/VMs from ISO scratch`**
 
-- 🛠️ **15+ years** of hands‑on IT experience, including volunteer support at a women's shelter.
-- 🏆 Recently recognized with **4 peer‑nominated awards** in 3 months for automation and infrastructure work.
-- 🤝 Active member of **VMUG Salt Lake City**—I believe in learning and sharing with the community.
-- 🎯 Focus: **Platform Engineering with focus on Automation via PowerShell, vSphere, Azure DevOps, AWS, SSL Certifcate, Redis Enterprise, Rabbitmq, SQL server Failovers using and Infrastructure as Code** (YAML, Terraform, Kubernetes).
+I'm someone who likes building things that work—preferably without clicking through the same wizard twice. I automate infrastructure so developers can focus on code, not server babysitting.
 
----
-
-## 🔧 What I Do
-
-I take messy, manual processes and turn them into reliable, repeatable automation. My current focus is **building fresh Windows VMs from official Microsoft ISOs**—no templates, no golden images, just code and a datastore.
-
-**My toolbox:**
-- **Languages:** PowerShell (advanced), YAML, JSON, basic C#
-- **Platforms:** VMware vSphere, Azure DevOps, Windows Server, Ubuntu, RedHat
-- **Tools:** PowerCLI, Git, Chocolatey, PSWindowsUpdate, UnattendXmlBuilder
+- 🛠️ **15+ years** of hands‑on IT, from hardware wrangling to cloud automation.
+- 🏆 Recently picked up **4 peer‑nominated awards** in 3 months for automation work.
+- 🤝 Active member of **VMUG Salt Lake City**—I show up, I learn, I share.
+- 💻 Volunteer IT support at a women's shelter (because tech should help everyone).
 
 ---
 
-## 📌 Featured Project: [Multi_Install_ISO](https://github.com/mikedopp/Multi_Install_ISO)
+## 🧰 Tools I actually use
 
-This is my flagship project—the automation engine we built together. It reads a YAML definition, downloads the required Windows ISO, generates an `autounattend.xml` answer file, provisions a VM in vSphere, and deploys your application code. All from scratch.
-
-> 🚀 **Try it yourself** – the repo includes everything you need to spin up a four‑server cluster by lunch.
-
----
-
-## 🌱 What I am sharpening currently
-- **Kubernetes** – running Windows containers on K8s
-- **Terraform** – managing multi‑cloud infrastructure
-- **ARM templates** – for when Azure is the target
+- **Scripting:** PowerShell (my daily driver), BASH, Python (getting deeper)
+- **Clouds:** Azure, AWS (still exploring, but I can find my way around)
+- **On‑prem:** VMware vSphere, PowerCLI, physical servers that blink
+- **Config as Code:** YAML, JSON, Terraform (learning), Kubernetes (early days)
+- **Windows internals:** Unattend.xml, PSWindowsUpdate, IIS, Chocolatey
 
 ---
 
-## 📫 Let's Connect
+## 📦 My flagship project: [`Multi_Install_ISO`](https://github.com/mikedopp/Multi_Install_ISO)
 
-- [LinkedIn](https://linkedin.com/in/mikedopp) – I'm active there
-- VMUG Salt Lake City – come find me at a meeting
+This is the automation I built to prove that fresh‑from‑ISO VMs don't have to be a manual chore. You feed it a YAML file, and it:
+
+- Grabs a clean Windows ISO (straight from Microsoft)
+- Generates a custom `autounattend.xml` answer file
+- Talks to vCenter to create the VM
+- Mounts the ISO, starts the install, then patches and deploys your app
+
+No templates, no golden images—just code and a datastore.
+
+> *Four servers before lunch? Done.*
 
 ---
 
-*"You are not your job." – but you can automate it.*
-![](file://C:/Users/mikedopp/Pictures/Think_Correctly__FreeBSD_by_xaimus.png)
+## 🌱 What I'm sharpening right now
+
+- **Kubernetes** – trying to get Windows containers to play nice
+- **Terraform** – because clicking in cloud consoles is so 2015
+- **ARM/Bicep** – for when Azure is the only answer
+
+---
+
+## 📡 Where to find me
+
+- [LinkedIn](https://linkedin.com/in/mikedopp) – I actually reply there
+- VMUG Salt Lake City meetups – I'm the one with the coffee
+- Right here on GitHub, committing code (slowly but steadily)
+
+---
+
+*"You are not your job."* – but automating it is way more fun.
