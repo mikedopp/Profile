@@ -1,55 +1,56 @@
-# Howdy 👋 I'm Mike Dopp
+# Mike Dopp
 
-**`Automation specialist · PowerShell/BASH/Python · On‑prem, Azure, AWS · Building fresh Pods/VMs from ISO scratch`**
+## Automation Specialist | Infrastructure Automation | PowerShell, Bash, Python
 
-I'm someone who likes building things that work—preferably without clicking through the same wizard twice. I automate infrastructure so developers can focus on code, not server babysitting.
+I build automation that turns repeatable infrastructure work into reliable code. My background spans 15+ years across Windows, VMware, on-prem systems, Azure/AWS, and the practical tooling that keeps teams moving without another round of manual clicking.
 
-- 🛠️ **15+ years** of hands‑on IT, from hardware wrangling to cloud automation.
-- 🏆 Recently picked up **4 peer‑nominated awards** in 3 months for automation work.
-- 🤝 Active member of **VMUG Salt Lake City**—I show up, I learn, I share.
-- 💻 Volunteer IT support at a women's shelter (because tech should help everyone).
+### Professional Summary
 
----
+- Infrastructure automation specialist with hands-on experience across hardware, Windows Server, virtualization, cloud, and operational support.
+- Daily PowerShell user with practical Bash and Python experience for scripting, glue work, and repeatable systems tasks.
+- Strong focus on provisioning, patching, VM lifecycle automation, configuration files, and tools that reduce manual operations.
+- Comfortable working across on-prem, hybrid, and cloud environments, including VMware vSphere, Azure, and AWS.
+- Peer-recognized for automation work, including four peer-nominated awards in three months.
+- Active in VMUG Salt Lake City and volunteer IT support for local community services.
 
-## 🧰 Tools I actually use
+### Core Skills
 
-- **Scripting:** PowerShell (my daily driver), BASH, Python (getting deeper)
-- **Clouds:** Azure, AWS (still exploring, but I can find my way around)
-- **On‑prem:** VMware vSphere, PowerCLI, physical servers that blink
-- **Config as Code:** YAML, JSON, Terraform (learning), Kubernetes (early days)
-- **Windows internals:** Unattend.xml, PSWindowsUpdate, IIS, Chocolatey
+| Area | Skills |
+| --- | --- |
+| Automation and scripting | PowerShell, Bash, Python, scheduled jobs, repeatable admin workflows |
+| Infrastructure | VMware vSphere, vCenter, PowerCLI, physical servers, VM provisioning, server lifecycle automation |
+| Windows engineering | Windows Server, unattended installs, autounattend.xml, IIS, PSWindowsUpdate, Chocolatey |
+| Cloud | Azure, AWS, ARM/Bicep, Terraform fundamentals |
+| Configuration and data | YAML, JSON, Git, GitHub, configuration as code |
+| Containers and platforms | Kubernetes fundamentals, Windows containers, Linux fundamentals |
+| Tooling and development | C#, .NET/WPF utilities, GitHub Pages, CI/CD basics |
+| Operations | Troubleshooting, documentation, incident response, end-user support |
 
----
+### Featured Project
 
-## 📦 My flagship project: [`Multi_Install_ISO`](https://github.com/mikedopp/Multi_Install_ISO)
+#### [Multi_Install_ISO](https://github.com/mikedopp/Multi_Install_ISO)
 
-This is the automation I built to prove that fresh‑from‑ISO VMs don't have to be a manual chore. You feed it a YAML file, and it:
+Infrastructure automation for building fresh Windows VMs from ISO instead of depending on manual steps or stale templates.
 
-- Grabs a clean Windows ISO (straight from Microsoft)
-- Generates a custom `autounattend.xml` answer file
-- Talks to vCenter to create the VM
-- Mounts the ISO, starts the install, then patches and deploys your app
+What it handles:
 
-No templates, no golden images—just code and a datastore.
+- Downloads or stages a clean Windows ISO.
+- Generates a custom `autounattend.xml` answer file.
+- Talks to vCenter through automation to create the VM.
+- Mounts installation media, starts the build, patches the system, and deploys the application.
+- Uses YAML-driven configuration so the process can be repeated and reviewed like code.
 
-> *Four servers before lunch? Done.*
+The goal is simple: make clean server builds predictable, auditable, and fast.
 
----
+### Current Focus
 
-## 🌱 What I'm sharpening right now
+- Deepening Terraform and Bicep skills for repeatable cloud deployments.
+- Sharpening Kubernetes and Windows container workflows.
+- Building more polished automation around provisioning, inventory, cleanup, and operational tooling.
 
-- **Kubernetes** – trying to get Windows containers to play nice
-- **Terraform** – because clicking in cloud consoles is so 2015
-- **ARM/Bicep** – for when Azure is the only answer
+### Contact
 
----
-
-## 📡 Where to find me
-
-- [LinkedIn](https://linkedin.com/in/mikedopp) – I actually reply there
-- VMUG Salt Lake City meetups – I'm the one with the coffee
-- Right here on GitHub, committing code (slowly but steadily)
-
----
-
-*"You are not your job."* – but automating it is way more fun.
+- GitHub: [github.com/mikedopp](https://github.com/mikedopp)
+- LinkedIn: [linkedin.com/in/mikedopp](https://linkedin.com/in/mikedopp)
+- Website: [mikedopp.com](http://www.mikedopp.com)
+- Location: Utah
