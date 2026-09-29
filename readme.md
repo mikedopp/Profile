@@ -54,3 +54,7 @@ The goal is simple: make clean server builds predictable, auditable, and fast.
 - LinkedIn: [linkedin.com/in/mikedopp](https://linkedin.com/in/mikedopp)
 - Website: [mikedopp.com](http://www.mikedopp.com)
 - Location: Utah
+
+## License
+
+MIT. Copyright (c) 2017-2026 mikedopp. See [LICENSE](LICENSE).
