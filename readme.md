@@ -1,59 +1,63 @@
 # Mike Dopp
 
-## Automation Specialist | Infrastructure Automation | PowerShell, Bash, Python
+**DevOps & SRE engineer · Release pipelines · AI automation**
 
-I build automation that turns repeatable infrastructure work into reliable code. My background spans 15+ years across Windows, VMware, on-prem systems, Azure/AWS, and the practical tooling that keeps teams moving without another round of manual clicking.
+I automate everything that ships or breaks: deployments, releases, certificates, failovers, hardware and software. If a human has to remember the steps, I'm not done yet.
 
-### Professional Summary
+20+ years in enterprise infrastructure, 10+ of them in DevOps and automation, mostly across Azure, AWS and the Windows systems underneath them. Based in Utah.
 
-- Infrastructure automation specialist with hands-on experience across hardware, Windows Server, virtualization, cloud, and operational support.
-- Daily PowerShell user with practical Bash and Python experience for scripting, glue work, and repeatable systems tasks.
-- Strong focus on provisioning, patching, VM lifecycle automation, configuration files, and tools that reduce manual operations.
-- Comfortable working across on-prem, hybrid, and cloud environments, including VMware vSphere, Azure, and AWS.
-- Peer-recognized for automation work, including four peer-nominated awards in three months.
-- Active in VMUG Salt Lake City and volunteer IT support for local community services.
+[Website](https://mikedopp.github.io) · [LinkedIn](https://www.linkedin.com/in/mikedopp) · [Email](mailto:mikedopp@mikedopp.com)
 
-### Core Skills
+## What I automate
 
-| Area | Skills |
+| Domain | What that looks like |
 | --- | --- |
-| Automation and scripting | PowerShell, Bash, Python, scheduled jobs, repeatable admin workflows |
-| Infrastructure | VMware vSphere, vCenter, PowerCLI, physical servers, VM provisioning, server lifecycle automation |
-| Windows engineering | Windows Server, unattended installs, autounattend.xml, IIS, PSWindowsUpdate, Chocolatey |
-| Cloud | Azure, AWS, ARM/Bicep, Terraform fundamentals |
-| Configuration and data | YAML, JSON, Git, GitHub, configuration as code |
-| Containers and platforms | Kubernetes fundamentals, Windows containers, Linux fundamentals |
-| Tooling and development | C#, .NET/WPF utilities, GitHub Pages, CI/CD basics |
-| Operations | Troubleshooting, documentation, incident response, end-user support |
+| **Deployments** | Azure DevOps Classic and YAML pipelines, including multi-region release pipelines into AWS |
+| **Releases** | Octopus Deploy workflows from dev to test to prod, built to stop drift between them |
+| **Certificates** | Pulled from the vault, bound to IIS, SSRS and RabbitMQ, verified, and alerted before expiry across 20+ servers |
+| **Failover** | A pipeline-gated, two-datacenter database failover, cut from 35+ minutes to under 10 |
+| **Hardware** | Config-driven server and application-stack builds that cut setup time 50% |
+| **Software** | 4,000+ reusable PowerShell functions for releases, load balancers, diagnostics and config checks |
+| **AI agents** | AI-written code works from versioned templates and has to pass parser, security, lint, test, build and smoke checks to ship |
+| **Local AI** | RAG search over 28,914 chunks on a local model, from 21.8 s to 30–50 ms per query, with the data staying on the machine |
 
-### Featured Project
+## Highlights
 
-#### [Multi_Install_ISO](https://github.com/mikedopp/Multi_Install_ISO)
+- Database failover across two datacenters: **35+ minutes to under 10**.
+- On-prem to AWS move with a small DevOps team I led: infrastructure costs **down 30%**.
+- Config-driven server builds: setup time **down 50%**.
+- **Four peer-nominated awards** in three months for automation work.
 
-Infrastructure automation for building fresh Windows VMs from ISO instead of depending on manual steps or stale templates.
+## Skills
 
-What it handles:
+| Area | Tools |
+| --- | --- |
+| Delivery and release | Azure DevOps (Classic and YAML pipelines, release definitions, REST APIs), Octopus Deploy, TeamCity, Git and GitHub |
+| Reliability and observability | High availability, failover automation, SQL Server Always On, Azure Monitor, Datadog, Dynatrace, Serilog/SEQ, alerting, root-cause analysis |
+| Cloud and platforms | Azure (Key Vault, Front Door, App Services, AKS, Entra ID), AWS (EC2, S3, IAM), Docker, ARM/Bicep |
+| Security | PKI and TLS, certificate lifecycle, service principals, secrets management |
+| Automation | PowerShell 7, Python, C#/.NET, Bash, SQL, REST APIs, UI and browser automation |
+| Applied AI | RAG, embeddings and vector search, prompt engineering, local model serving with Ollama, AI coding agents with human review |
+| Infrastructure | VMware vSphere, PowerCLI, Windows Server, IIS, unattended installs, PSWindowsUpdate, Chocolatey, load balancers |
 
-- Downloads or stages a clean Windows ISO.
-- Generates a custom `autounattend.xml` answer file.
-- Talks to vCenter through automation to create the VM.
-- Mounts installation media, starts the build, patches the system, and deploys the application.
-- Uses YAML-driven configuration so the process can be repeated and reviewed like code.
+## Public work
 
-The goal is simple: make clean server builds predictable, auditable, and fast.
+### [Multi_Install_ISO](https://github.com/mikedopp/Multi_Install_ISO)
 
-### Current Focus
+Builds vSphere and Hyper-V servers straight from install ISOs. No templates, no golden images. You describe the VMs, get a plan with a SHA-256, build verified answer media, then apply one VM at a time behind a hash gate, with a receipt for every step. PowerShell engine plus a .NET 10 desktop app. 0.9.0 prerelease.
 
-- Deepening Terraform and Bicep skills for repeatable cloud deployments.
-- Sharpening Kubernetes and Windows container workflows.
-- Building more polished automation around provisioning, inventory, cleanup, and operational tooling.
+### [BoardScout](https://github.com/mikedopp/BoardScout)
 
-### Contact
+A portable Windows app that maps a PC's motherboard, bandwidth, drivers, storage and OS, and flags links running below spec, like a PCIe 4.0 SSD on 3.0 lanes. C# and .NET 10, MIT. Fourteen releases since August, checksummed since 1.1.
 
-- GitHub: [github.com/mikedopp](https://github.com/mikedopp)
-- LinkedIn: [linkedin.com/in/mikedopp](https://linkedin.com/in/mikedopp)
-- Website: [mikedopp.com](http://www.mikedopp.com)
-- Location: Utah
+## Community
+
+- Active in VMUG Salt Lake City.
+- Volunteer IT support for local community services.
+
+## About this repo
+
+Besides this page, the repo holds my PowerShell ISE profile (`Microsoft.PowerShellISE_profile.ps1`) and its Pester tests.
 
 ## License
 
