@@ -22,10 +22,6 @@ I automate everything that ships or breaks: deployments, releases, certificates,
 
 ## Public work
 
-### [Multi_Install_ISO](https://github.com/mikedopp/Multi_Install_ISO)
-
-Builds vSphere and Hyper-V servers straight from install ISOs. No templates, no golden images. You describe the VMs, get a plan with a SHA-256, build verified answer media, then apply one VM at a time behind a hash gate, with a receipt for every step. PowerShell engine plus a .NET 10 desktop app. 0.9.1 prerelease.
-
 ### [BoardScout](https://github.com/mikedopp/BoardScout)
 
 A portable Windows app that maps a PC's motherboard, bandwidth, drivers, storage and OS, and flags links running below spec, like a PCIe 4.0 SSD on 3.0 lanes. C# and .NET 10, MIT. 17 releases since August 2026, checksummed since 1.1.
